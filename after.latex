@@ -1,0 +1,174 @@
+\documentclass{article}
+
+\usepackage{graphicx}  % for SVG logo
+\usepackage{tabularx}  % for tables
+\usepackage{amssymb}   % \square
+\usepackage{enumitem}  % itemize
+\usepackage{calc}      % calculating sizes
+\usepackage[margin=1in,top=0.5in]{geometry}         % reduce margins
+\usepackage[pdftex, pdfauthor={Kiëd Llaentenn},     % set pdf metadata
+            pdftitle={DCSS Coroner Report}]{hyperref}
+
+\renewcommand{\familydefault}{\sfdefault}  % sans serif
+\pagenumbering{gobble}                     % no page numbers
+\setlength{\parindent}{0pt}                % disable paragraph indent
+
+\def\svgwidth{0.6\columnwidth}
+% \title{\input{arch-logo.pdf_tex}\hspace{-0.39\columnwidth}Fuck-up Assessment Form}
+\title{DCSS Coroner Report}
+
+\author{}
+\date{\vspace{-3.5em}}
+
+\begin{document}
+\maketitle
+
+% \begin{center}
+% \texttt{Welcome, please tell us of your loss.}
+% \end{center}
+
+\vspace{1em}
+\textbf{Username:} \dotfill
+\ \textbf{Date:} \dotfill
+\ \textbf{Character/god:} \dotfill \\
+\textbf{Morgue:} \dotfill
+
+\vspace{1.0em}
+
+\def\arraystretch{1.5}  % increase vertical table size
+\begin{tabularx}{\textwidth}{|XXXX|}
+\hline
+\multicolumn{4}{|l|}{\textbf{Tell us how much of each item you had upon death.}} \\ \hline
+?acquirement: \dotfill &
+!experience: \dotfill &
+!haste: \dotfill &
+!might: \dotfill \\
+
+?summoning: \dotfill &
+?fear: \dotfill &
+?blinking: \dotfill &
+?teleportation: \dotfill \\ \hline
+\end{tabularx}
+
+\vspace{0.5em}
+
+\def\arraystretch{1.5}  % increase vertical table size
+\begin{tabularx}{\textwidth}{|XXXX|}
+\hline
+\multicolumn{4}{|l|}{\textbf{How much rHubris did you have?}} \\ \hline
+\(\square\) xxx &
+\(\square\) xx &
+\(\square\) x &
+\(\square\) (none) \\
+
+\(\square\) + &
+\(\square\) ++ &
+\(\square\) +++ &
+\(\square\) ${\inf}$ \\ \hline
+\end{tabularx}
+
+\vspace{0.5em}
+
+\def\arraystretch{1.5}  % increase vertical table size
+\begin{tabularx}{\textwidth}{|lllX|}
+\hline
+\multicolumn{4}{|l|}{\textbf{What was your reaction?} (check all that apply)} \\ \hline
+\(\square\) *sigh* &
+\(\square\) Sheer amusement &
+\(\square\) Desire to play Nethack &
+\(\square\) Unspeakable grief \\
+
+\(\square\) Stared blankly &
+\(\square\) Rage &
+\multicolumn{2}{l|}{\(\square\) Other (please specify): \dotfill} \\ \hline
+\end{tabularx}
+
+\vspace{0.5em}
+
+% there's probably a way easier method to align the two
+% "I (didn't) listen(ed) to" points but this works
+\newlength{\listenedwidth}
+\newlength{\didntlistenwidth}
+\settowidth{\listenedwidth}{I listened to}
+\settowidth{\didntlistenwidth}{I didn't listen to}
+
+\begin{tabularx}{\textwidth}{|X|}
+\hline
+\textbf{What caused you to die?} (check all that apply) \\ \hline
+\vspace{-8pt}
+\begin{enumerate}[label={\(\square\)},noitemsep,topsep=0pt,leftmargin=*]
+    \item I tried to melee \dotfill (e.g, Nikola, Lerny)
+    \item I tried to run from \dotfill (e.g, hell sentinel, electric golem)
+    \item I pissed off \dotfill (e.g, Trog, Mahkleb, Uskayaw)
+    \item I worshiped \dotfill (e.g, Cheibriados, Ashenzari, Jiyva)
+    \item I went into Volcano after pissing off Ignis
+    \item I raided the last floor of \dotfill and thought I was invincible
+    \item I got a +9 broad axe of electrocution and thought I was invincible
+    \item I got the +8 Scales of the Dragon King and thought I was invincible
+    \item I had 35 SH / 70 AC and thought I was invincible
+    \item Xom tickled me
+    \item Something invisible kept hitting me
+    \item I pressed \texttt{Shift+X >} to go downstairs and got sent to a place called "Hell" instead
+    \item I flew over deep water without flight and got turbo-drained
+    \item I didn't look up a monster in the Crawl wiki
+    \item I looked up a monster in the Nethack wiki
+    \item I listened to \makebox[7em+\didntlistenwidth-\listenedwidth]{\dotfill}'s advice
+    \item I didn't listen to \makebox[7em]{\dotfill}'s advice
+    \item I didn't notice it was wielding a weapon of venom
+    \item I didn't notice it was wielding a weapon of distortion
+    \item I didn't notice I was walking into a fungus while running away
+    \item I didn't mean to open that runed gate...
+    \item I one-shotted myself with a \dotfill
+    \item I forgot Royal Mummies have death curses
+    \item I thought my =reflection would deflect that crystal spear
+    \item "The very large slime creature hits you!!!!"
+    \item Other (please specify): \dotfill \vspace*{-\baselineskip}
+\end{enumerate} \\ \hline
+\end{tabularx}
+
+\vspace{0.5em}
+
+\def\arraystretch{1.5}  % increase vertical table size
+\begin{tabularx}{\textwidth}{|lllX|}
+\hline
+\multicolumn{4}{|l|}{\textbf{Who do you blame for your death?} (check all that apply)} \\ \hline
+\(\square\) \texttt{\#crawl} &
+\(\square\) the RNG &
+\(\square\) Pleasingfungus &
+\(\square\) I dunno \\
+
+\(\square\) \texttt{\#crawl-dev} &
+\(\square\) Nemelex &
+\(\square\) u/oneirical &
+\(\square\) That f****** \dotfill (monster) \\
+
+\(\square\) r/dcss &
+\(\square\) Xom &
+\(\square\) u/ultraviolent &
+\(\square\) Other (please specify): \dotfill \\ \hline
+\end{tabularx}
+
+\vspace{0.5em}
+
+\begin{tabularx}{\textwidth}{|lXX|}
+\hline
+\multicolumn{3}{|l|}{\textbf{What decision did you reach as a result of your experience?} (check all that apply)} \\ \hline
+\(\square\) To play Brogue &
+\(\square\) Never to worship \dotfill again &
+\(\square\) Never to visit \dotfill again \\
+
+
+\(\square\) To play a Crawl fork &
+\(\square\) Never to play a \dotfill again &
+\(\square\) "hmm what character do I play next" \\
+
+\(\square\) To play Cogmind &
+\multicolumn{2}{l|}{\(\square\) Other (please specify): \dotfill} \\ \hline
+\end{tabularx}
+
+\vspace*{\fill}
+\begin{center}
+Please submit this completed form along with a lengthy YASD post to \texttt{r/dcss}.
+\end{center}
+
+\end{document}
