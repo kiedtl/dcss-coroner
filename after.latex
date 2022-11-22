@@ -69,22 +69,6 @@
 
 \vspace{0.5em}
 
-\def\arraystretch{1.5}  % increase vertical table size
-\begin{tabularx}{\textwidth}{|lllX|}
-\hline
-\multicolumn{4}{|l|}{\textbf{What was your reaction?} (check all that apply)} \\ \hline
-\(\square\) *sigh* &
-\(\square\) Sheer amusement &
-\(\square\) Desire to play Nethack &
-\(\square\) Unspeakable grief \\
-
-\(\square\) Stared blankly &
-\(\square\) Rage &
-\multicolumn{2}{l|}{\(\square\) Other (please specify): \dotfill} \\ \hline
-\end{tabularx}
-
-\vspace{0.5em}
-
 % there's probably a way easier method to align the two
 % "I (didn't) listen(ed) to" points but this works
 \newlength{\listenedwidth}
@@ -121,9 +105,29 @@
     \item I one-shotted myself with a \dotfill
     \item I forgot Royal Mummies have death curses
     \item I thought my =reflection would deflect that crystal spear
+    \item I thought my =reflection would deflect that javelin
+    \item I teleported into a rune vault
+    \item My \makebox[7em]{\dotfill} ran out and I didn't notice
     \item "The very large slime creature hits you!!!!"
     \item Other (please specify): \dotfill \vspace*{-\baselineskip}
 \end{enumerate} \\ \hline
+\end{tabularx}
+
+\vspace{0.5em}
+
+\def\arraystretch{1.5}  % increase vertical table size
+\begin{tabularx}{\textwidth}{|llX|}
+\hline
+\multicolumn{3}{|l|}{\textbf{What was your reaction?} (check all that apply)} \\ \hline
+\(\square\) *sigh* &
+\(\square\) Xom roars with delight! &
+\(\square\) Desire to play Nethack \\
+
+\(\square\) Unspeakable grief &
+\(\square\) Stared blankly &
+\(\square\) You hit the keyboard with a +3 face of flaming!!! \\
+
+\multicolumn{3}{|l|}{\(\square\) Other (please specify): \dotfill} \\ \hline
 \end{tabularx}
 
 \vspace{0.5em}
@@ -144,7 +148,7 @@
 
 \(\square\) r/dcss &
 \(\square\) Xom &
-\(\square\) u/ultraviolent &
+\(\square\) the Roguelike discord &
 \(\square\) Other (please specify): \dotfill \\ \hline
 \end{tabularx}
 
@@ -154,13 +158,13 @@
 \hline
 \multicolumn{3}{|l|}{\textbf{What decision did you reach as a result of your experience?} (check all that apply)} \\ \hline
 \(\square\) To play Brogue &
-\(\square\) Never to worship \dotfill again &
+\(\square\) To buy a punch-proof keybord &
 \(\square\) Never to visit \dotfill again \\
 
 
 \(\square\) To play a Crawl fork &
-\(\square\) Never to play a \dotfill again &
-\(\square\) "hmm what character do I play next" \\
+\(\square\) "maybe i'll try kikubakubla this run" &
+\(\square\) Never to play a \dotfill again \\
 
 \(\square\) To play Cogmind &
 \multicolumn{2}{l|}{\(\square\) Other (please specify): \dotfill} \\ \hline
