@@ -21,6 +21,7 @@ server:  _______              morgue: ________________________________
 - I pissed off:           Trog          / Ashenzari / Lugonu / Uskayaw
 - I worshiped:            Cheibriados   / Ashenzari / Jiyva  / Zin
 - I tried to run from:    fiend / unseen horror / hell sentinel / electric golem
+- I thought my =reflection would deflect:     orb of destruction / crystal spear
 - I went into Volcano after pissing off Ignis
 - I raided the last floor of ________ and thought I was invincible
 - I got a +9 broad axe of electrocution and thought I was invincible
@@ -28,7 +29,6 @@ server:  _______              morgue: ________________________________
 - I had 35 SH / 75 AC and thought I was invincible
 - Xom tickled me
 - Something invisible kept hitting me
-- I thought my =reflection would deflect:     orb of destruction / crystal spear
 - I pressed "Shift+X >" to go downstairs and got sent to a place called "Hell"
   instead
 - I flew over deep water without flight and got turbo-drained
