@@ -20,25 +20,39 @@ discretion is the better part of valour
   - oka's duel
   - banishment (lugonu)
   - abyss gating (lugonu)
+- spell: blink
+- barachim's hop
+
+## can i get the monster away
+
+- boomerangs of dispersal
+- ?fear
+- ?fog
+- spell: teleport other
+- spell: disjunction
+- spell: magic blast
+- spell: dispersal
 
 ## do i have to stay and fight
 
+- hexes (+ scroll of vuln)
+  - anguish
+  - discord
+  - para
+  - petr
 - ?summon
 - !haste
 - !berserk
 - !might
-
-  - evocables
-    - acid
-    - charming
-    - iceburst
-    - paralysis
-    - polymorph
-
-    - condenser vane
-    - lightning rod
-    - phantom mirror
-    - tin of tremorstones
-    - box of beasts
-
-
+- wands
+  - acid
+  - charming
+  - iceburst
+  - paralysis
+  - polymorph
+- evocables
+  - condenser vane
+  - lightning rod
+  - phantom mirror
+  - tin of tremorstones
+  - box of beasts
